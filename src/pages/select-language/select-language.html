@@ -1,0 +1,61 @@
+<!--<ion-header>
+  <ion-navbar>-->
+    <!--<button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>-->
+    <!--<ion-title>Select Language</ion-title>
+  </ion-navbar>
+</ion-header>-->
+
+<ion-content class="bg" padding no-bounce>
+
+  <div class="logo"><img src="assets/img/logo.png" /></div>
+<ion-grid>
+  <ion-row>
+    <ion-col col-2></ion-col>
+    <ion-col col-9>
+      <div style="color: white; font-size:80%;  ">
+										<p>	<span>&nbsp; &nbsp; SAVE TIME - Let us shop for you</span></p>
+										<p>	<span><img src="assets/img/shop.png" style="width: 5%;"/></span><span>&nbsp;Picked for you by trained shoppers</span></p>
+										<p>	<span><img src="assets/img/clock.png" style="width: 5%;"/></span><span>&nbsp;Delivery at your convenience</span></p>
+										<p>		<span><img src="assets/img/shop.png" style="width: 5%;"/></span><span>&nbsp;Pay Securely via cash or card</span></p>
+				</div>
+    </ion-col>
+    <ion-col col-1></ion-col>
+  </ion-row>
+</ion-grid>
+
+ <div align="center"     margin-top="10%">
+<ion-list no-lines style="background: #f00;
+    border-radius: 5px;">
+  <ion-item style="background: transparent;">
+    <ion-label style="color:white; text-align: center;">SELECT YOUR STORE</ion-label>
+    <ion-select [(ngModel)]="store" style="color: white;" >
+      <ion-option value="nes">Store 1</ion-option>
+      <ion-option value="n64">Store 2</ion-option>
+      <ion-option value="ps">Store 3</ion-option>
+      <ion-option value="genesis">Store 4</ion-option>
+      
+    </ion-select>
+  </ion-item>
+</ion-list>
+<ion-list no-lines style="background: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #ffc100;">
+  <ion-item style="background: transparent;">
+    <ion-label style="color:white; text-align: center;">CHANGE LANUAGE</ion-label>
+    <ion-select [(ngModel)]="language" style="color: white;">
+      <ion-option value="nes">CHINESS</ion-option>
+      <ion-option value="n64">GERMANY</ion-option>
+      <ion-option value="ps">UAE</ion-option>
+      <ion-option value="genesis">UK</ion-option>
+      <ion-option value="saturn">USA</ion-option>
+     
+    </ion-select>
+  </ion-item>
+</ion-list>
+<button ion-button style="background: #ffc100; font-weight: 600; color: black;" (click)="loginpage()">Next</button>
+</div>
+  <!--<button ion-button secondary menuToggle>Toggle Menu</button>-->
+</ion-content>
