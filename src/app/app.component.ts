@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { SelectLanguagePage } from '../pages/select-language/select-language';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
 @Component({
   templateUrl: 'app.html'
 })

@@ -8,18 +8,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * on Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
-  selector: 'page-categories',
-  templateUrl: 'categories.html',
+  selector: 'page-supermarkets',
+  templateUrl: 'supermarkets.html',
 })
-export class CategoriesPage {
+export class SupermarketsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CategoriesPage');
-  }
-
+  
 }

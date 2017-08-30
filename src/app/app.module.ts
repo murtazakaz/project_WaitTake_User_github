@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { SelectLanguagePage } from '../pages/select-language/select-language';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     SelectLanguagePage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    SupermarketsPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     SelectLanguagePage,
     LoginPage,
-     RegisterPage
+     RegisterPage,
+     SupermarketsPage 
   ],
   providers: [
     StatusBar,
