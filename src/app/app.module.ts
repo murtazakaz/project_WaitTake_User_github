@@ -3,12 +3,13 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { SelectLanguagePage } from '../pages/select-language/select-language';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
+import { CategoryPage } from '../pages/category/category';
+import { SubcategoryPage } from '../pages/subcategory/subcategory';
+import { ProductdetailsPage } from '../pages/productdetails/productdetails';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -16,12 +17,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage,
     SelectLanguagePage,
     LoginPage,
     RegisterPage,
-    SupermarketsPage
+    SupermarketsPage,
+    CategoryPage,
+    SubcategoryPage,
+    ProductdetailsPage
   ],
   imports: [
     BrowserModule,
@@ -31,12 +33,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage,
     SelectLanguagePage,
     LoginPage,
      RegisterPage,
-     SupermarketsPage 
+     SupermarketsPage,
+     CategoryPage,
+     SubcategoryPage,
+     ProductdetailsPage 
   ],
   providers: [
     StatusBar,

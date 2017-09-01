@@ -2,19 +2,19 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { SelectLanguagePage } from '../pages/select-language/select-language';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
+import { CategoryPage } from '../pages/category/category';
+import { SubcategoryPage } from '../pages/subcategory/subcategory';
+
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild(Nav) nav: Nav;
-
+  //@ViewChild(Nav) nav: Nav;
+  @ViewChild('content') nav: Nav;
   rootPage: any = SelectLanguagePage;
 
   pages: Array<{title: string, component: any}>;
@@ -24,8 +24,9 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Super Markets', component: SupermarketsPage },
+      { title: 'Logout', component: LoginPage }
+     
     ];
 
   }

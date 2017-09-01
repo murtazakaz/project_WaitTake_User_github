@@ -1,0 +1,46 @@
+<ion-header style="background:#ffc100;" >
+  <ion-navbar style="background:#ffc100;" >
+   <ion-buttons right >
+    <button ion-button (click)="openMenu()">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+   </ion-buttons>
+        <ion-title  style="background:#ffc100;">Product Detail</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg" padding >
+    <ion-card style="background: transparent;">
+        
+          <img src="assets/img/supermarket.jpg">
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="heart-outline"></ion-icon>
+            </button>
+          </ion-fab>
+        
+          <ion-item style="background: transparent;">
+            <!-- <ion-icon name="football" item-start large></ion-icon> -->
+            <h2 style="color: white;">Apple Laptop</h2>
+            <p style="color: white;">Price: $300 <span style=" text-decoration:line-through;">$250</span></p>
+           
+            <p><img style="width: 30%;" src="assets/img/star5.png"></p>
+            
+           
+            <ion-fab style="top: 10px; right: 15px;">
+                <button ion-fab>
+                  <ion-icon name="cart"></ion-icon>
+                </button>
+              </ion-fab>
+          </ion-item>
+          
+              <!-- <ion-icon name="football" item-start large></ion-icon> -->
+             
+         
+       
+        </ion-card>
+        <h2 style="color: white;">Description</h2>
+        <p style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        
+  
+</ion-content>
