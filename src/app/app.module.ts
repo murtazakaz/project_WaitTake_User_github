@@ -10,6 +10,7 @@ import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
 import { CategoryPage } from '../pages/category/category';
 import { SubcategoryPage } from '../pages/subcategory/subcategory';
 import { ProductdetailsPage } from '../pages/productdetails/productdetails';
+import { CartPage } from '../pages/cart/cart';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -23,7 +24,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     SupermarketsPage,
     CategoryPage,
     SubcategoryPage,
-    ProductdetailsPage
+    ProductdetailsPage,
+    CartPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
      SupermarketsPage,
      CategoryPage,
      SubcategoryPage,
-     ProductdetailsPage 
+     ProductdetailsPage,
+     CartPage 
   ],
   providers: [
     StatusBar,

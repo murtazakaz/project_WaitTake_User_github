@@ -8,6 +8,7 @@ import { RegisterPage } from '../pages/register/register';
 import { SupermarketsPage } from '../pages/supermarkets/supermarkets';
 import { CategoryPage } from '../pages/category/category';
 import { SubcategoryPage } from '../pages/subcategory/subcategory';
+import { CartPage } from '../pages/cart/cart';
 
 @Component({
   templateUrl: 'app.html'
