@@ -11,9 +11,11 @@ import { CategoryPage } from '../pages/category/category';
 import { SubcategoryPage } from '../pages/subcategory/subcategory';
 import { ProductdetailsPage } from '../pages/productdetails/productdetails';
 import { CartPage } from '../pages/cart/cart';
+import { OrdernowPage } from '../pages/ordernow/ordernow';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SplashPage } from '../pages/splash/splash';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CategoryPage,
     SubcategoryPage,
     ProductdetailsPage,
-    CartPage
+    CartPage,
+    OrdernowPage,
+    SplashPage
+
   ],
   imports: [
     BrowserModule,
@@ -42,7 +47,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
      CategoryPage,
      SubcategoryPage,
      ProductdetailsPage,
-     CartPage 
+     CartPage,
+     OrdernowPage,
+     SplashPage 
   ],
   providers: [
     StatusBar,

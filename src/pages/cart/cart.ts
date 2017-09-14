@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams ,MenuController } from 'ionic-angular';
-
+import { OrdernowPage } from '../ordernow/ordernow';
 /**
  * Generated class for the CartPage page.
  *
@@ -24,4 +24,6 @@ export class CartPage {
   openMenu() {
     this.menuCtrl.open();
   }
+  ordernowpage()
+  {this.navCtrl.push(OrdernowPage);}
 }

@@ -33,7 +33,7 @@
               <ion-row>
                   <ion-col col-4 style="margin-left: -2%;"><p style="color:#9e9e9e;font-size: small; ">RM2.00/1.51</p> </ion-col>
                    <ion-col col-4> </ion-col>
-                    <ion-col col-4><ion-icon name="add-circle"></ion-icon>14  <ion-icon name="remove-circle"></ion-icon></ion-col> 
+                    <ion-col col-4><ion-icon name="add-circle" style="color:#9e9e9e;"></ion-icon>  14  <ion-icon name="remove-circle" style="color:#9e9e9e;"></ion-icon></ion-col> 
                 </ion-row>
             
               <p style="color:#6d6d6d;font-size: smaller; ">RM26.00</p>
@@ -57,7 +57,7 @@
                   <ion-row>
                       <ion-col col-4 style="margin-left: -2%;"><p style="color:#9e9e9e;font-size: small; ">RM2.00/1.51</p> </ion-col>
                        <ion-col col-4> </ion-col>
-                        <ion-col col-4><ion-icon name="add-circle"></ion-icon>18  <ion-icon name="remove-circle"></ion-icon></ion-col> 
+                        <ion-col col-4><ion-icon name="add-circle" style="color:#9e9e9e;"></ion-icon> 18 <ion-icon name="remove-circle" style="color:#9e9e9e;"></ion-icon></ion-col> 
                     </ion-row>
                 
                   <p style="color:#6d6d6d;font-size: smaller; ">RM26.00</p>
@@ -71,10 +71,13 @@
                     Add notes for shopper</ion-label>
                   <ion-input style="color:black;" type="text"></ion-input>
               </ion-item>   
-              <ion-item style="background-color: #898989;text-align: center;" >
+              <!-- <ion-item class="greybg" style="text-align: center;" > -->
+                  <ion-item style="background-color:#6d6d6d; text-align: center;" > 
                  <span style="color:white;font-weight: 100;">You got a</span><span style="color:#fbe949;    font-weight: 100;"> Discount </span><span style="color:white;font-weight: 100;">for your delivery fee</span>
-              </ion-item>  
+
+                </ion-item>  
               <ion-item>   
+               
              <p style="text-align: center; color:#6d6d6d ">Total RM206.00</p>
             </ion-item> 
   </ion-card>
@@ -84,7 +87,7 @@
 </ion-content>
 <ion-footer style="text-align: center;">
     <!-- <ion-toolbar style="text-align: center; "> -->
-        <button ion-button style="background-color:#ffc000;" large>ORDER NOW</button>
+        <button ion-button style="background-color:#ffc000;" (click)="ordernowpage()" large>ORDER NOW</button>
         <button ion-button style="background-color:#fe0000;" large>SCHEDULE</button>
     <!-- </ion-toolbar> -->
   </ion-footer>

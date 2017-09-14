@@ -1,0 +1,42 @@
+<ion-header style="background:#ffc100;" >
+    <ion-navbar style="background:#ffc100;" >
+     <ion-buttons right >
+      <button ion-button (click)="openMenu()">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+     </ion-buttons>
+          <ion-title  style="background:#ffc100;">YOUR ORDER</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content >
+      <ion-card>
+          <img src="assets/img/vector.jpg"/>
+      </ion-card>
+
+      <ion-list>
+          
+            <ion-item>
+              <ion-input type="text" placeholder="Fullname"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-input type="text" placeholder="Address"></ion-input>
+              </ion-item>
+                <ion-item>
+                    <ion-input type="text" placeholder="Town/City"></ion-input>
+                  </ion-item>
+                  <ion-item>
+                      <ion-input type="number" placeholder="Phone"></ion-input>
+                    </ion-item>
+                    <ion-item>
+                        <ion-input type="email" placeholder="Email"></ion-input>
+                      </ion-item>
+          
+           
+          
+          </ion-list>
+        <div style="text-align: center;">  <button ion-button style="background-color:#fe0000;" large>ORDER</button>
+        </div>
+    
+  </ion-content>
+  
